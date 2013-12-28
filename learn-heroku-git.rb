@@ -9,7 +9,7 @@ before do
 end
 
 get '/' do
-  @page_heading = 'Index Page'
+  @page_heading = 'Home Page'
   @home_active = 'active'
   erb :index
 end
